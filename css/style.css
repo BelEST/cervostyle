@@ -40,13 +40,14 @@ body {
   text-align: center;
 }
 .content-menu {
-  height: 200px;
+  height: 175px;
   width: 100vw;
   display: flex;
-  
   align-items: center;
   font-family:  Helvetica, sans-serif;
   font-size: 14px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 
 
@@ -64,9 +65,14 @@ body {
 
 }
 
+.menu-right a i{
+  margin-right: 5px;
+}
+
 .icono {
   width: 20px;
 }
+
 a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
@@ -75,7 +81,7 @@ a {
   
 }
 .content-logo {
-  width: 340%;
+  width: 34%;
   height: 100%;
  
   display: flex;
