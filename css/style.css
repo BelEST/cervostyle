@@ -1,0 +1,94 @@
+/* BORDER BOTON SOLID */
+
+
+ *{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 3000px;
+  background: black;
+  overflow-x: hidden;
+}
+.header {
+  height: 250px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first-title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header h1 {
+  height: 50px;
+ 
+  font-size: 14px;
+  font-family:  Helvetica, sans-serif;
+  color: white;
+  display: flex;
+  
+  align-items: center;
+  text-align: center;
+}
+.content-menu {
+  height: 200px;
+  width: 100vw;
+  display: flex;
+  
+  align-items: center;
+  font-family:  Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+
+.menu-left {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.menu-right {
+  width: 33%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.icono {
+  width: 20px;
+}
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  
+}
+.content-logo {
+  width: 340%;
+  height: 100%;
+ 
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  
+  padding-top: 20px;
+}
+.logo {
+  width: 320px;
+}
+
+
+
+
+/*MENUUUUU//*
